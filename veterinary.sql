@@ -64,3 +64,16 @@ CREATE TABLE medicalrecords (
    FOREIGN KEY (doctorid) 
    REFERENCES doctors(doctorid)
 );
+
+INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email) 
+VALUES
+    (1, 'Juan', 'Dela Cruz', '123 Main St, Manila', '123-4567', 'juan@example.com'),
+    (2, 'Maria', 'Santos', '456 Oak St, Quezon City', '987-6543', 'maria@example.com'),
+    (3, 'Antonio', 'Gonzales', '789 Pine St, Cebu', '555-1234', 'antonio@example.com'),
+    (4, 'Elena', 'Rodriguez', '321 Elm St, Davao', '111-2222', 'elena@example.com'),
+    (5, 'Ricardo', 'Lim', '654 Maple St, Makati', '333-4444', 'ricardo@example.com'),
+    (6, 'Isabel', 'Reyes', '987 Birch St, Pasig', '666-7777', 'isabel@example.com'),
+    (7, 'Lorenzo', 'Torres', '147 Cedar St, Mandaluyong', '888-9999', 'lorenzo@example.com'),
+    (8, 'Carmen', 'Fernandez', '258 Spruce St, Taguig', '222-3333', 'carmen@example.com'),
+    (9, 'Felipe', 'Garcia', '369 Walnut St, Paranaque', '444-5555', 'felipe@example.com'),
+    (10, 'Beatriz', 'Morales', '741 Palm St, Las Pinas', '777-8888', 'beatriz@example.com');
