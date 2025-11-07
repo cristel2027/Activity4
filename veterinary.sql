@@ -103,3 +103,16 @@ VALUES
     (8, 8, '2023-04-18', 'Spaying surgery'),
     (9, 9, '2023-05-02', 'Allergy consultation'),
     (10, 10, '2023-05-20', 'Eye infection');
+
+INSERT INTO doctors (doctorid, dfirstname, dlastname, speciality, phone, email)
+VALUES
+    (1, 'Dr. Maria', 'Santos', 'General Veterinarian', '987-654-3210', 'maria@example.com'),
+    (2, 'Dr. Antonio', 'Gonzales', 'Feline Specialist', '555-123-4567', 'antonio@example.com'),
+    (3, 'Dr. Felipe', 'Luna', 'Orthopedic Specialist', '111-222-3333', 'felipe@example.com'),
+    (4, 'Dr. Sofia', 'Reyes', 'Dermatology Specialist', '999-888-7777', 'sofia@example.com'),
+    (5, 'Dr. Luis', 'Torres', 'Surgery Specialist', '123-555-7777', 'luis@example.com'),
+    (6, 'Dr. Carmen', 'Fernandez', 'Ophthalmology Specialist', '333-222-1111', 'carmen@example.com'),
+    (7, 'Dr. Roberto', 'Chen', 'Cardiology Specialist', '444-555-6666', 'roberto@example.com'),
+    (8, 'Dr. Elena', 'Martinez', 'Neurology Specialist', '777-888-9999', 'elena@example.com'),
+    (9, 'Dr. Miguel', 'Tan', 'Dentistry Specialist', '222-333-4444', 'miguel@example.com'),
+    (10, 'Dr. Andrea', 'Lim', 'Emergency Care Specialist', '666-777-8888', 'andrea@example.com');
