@@ -1,1 +1,3 @@
 # Activity
+
+CREATE DATABASE veterinary
